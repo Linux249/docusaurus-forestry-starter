@@ -4,6 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: group
+  label: Group of docs
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+  - page
+  - blog-post
 - type: heading
   label: Heading Group
 - type: document
