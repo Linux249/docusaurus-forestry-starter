@@ -31,3 +31,5 @@ fields:
     maxSize: 64
   label: Test image upload
   description: adasdasdasdasdasd
+pages:
+- group/Folder 1/blog-in-group-1.md
