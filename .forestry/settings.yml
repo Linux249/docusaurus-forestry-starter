@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Heading Group
 - type: directory
   path: group
   label: Group of docs
@@ -13,12 +15,9 @@ sections:
   - blog-post
   - page
   - blog-post
-- type: heading
-  label: Heading Group
 - type: document
   path: single_doc
   label: Single Doc
-  match: "**/*"
 - type: directory
   path: docs
   label: Docs
