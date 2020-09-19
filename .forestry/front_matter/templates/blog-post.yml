@@ -25,3 +25,9 @@ fields:
   type: tag_list
   default: []
   label: tags
+- name: test_image_upload
+  type: file
+  config:
+    maxSize: 64
+  label: Test image upload
+  description: adasdasdasdasdasd
