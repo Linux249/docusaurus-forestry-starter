@@ -11,3 +11,5 @@ fields:
 - type: text
   name: sidebar_label
   label: sidebar_label
+pages:
+- group/page-1.md
